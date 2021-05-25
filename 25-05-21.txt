@@ -1,0 +1,4 @@
+Today was the first day of ou internship. It started with the introduction of Akash Sir who is the CEO of Akash Techlabs.
+Then we had a doubt session where various fellow interns asked their doubts to sir. Then our training began
+with Introduction to basics of Python. First we were introduced to various editors and IDE where we can write
+and execute our Python codes. Then we were introduced to print statement which used to print various elements.
