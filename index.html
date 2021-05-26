@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange Fitness</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <style>
+        /* CSS reset */
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('Images/body.jpg');
+            font-family: 'Baloo Bhai 2', cursive;
+            height: 850px;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 11px;
+            left: 44px;
+
+        }
+
+        .left img {
+            width: 138px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 3px;
+            font-size: 20px;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            left: 390px;
+            width: 42%;
+            margin: 15px auto;
+        }
+
+        .navbar li {
+            display: inline-block;
+            /* font-size: 25px; */
+        }
+
+        .navbar li a {
+            /* border: 2px solid pink; */
+            text-decoration: none;
+            color: white;
+            /* padding: 34px 19px; */
+            margin: 3px 26px;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 10px;
+            width: 232px;
+            top: 18px;
+
+        }
+
+        .btn {
+            margin: 8px 11px;
+            padding: 1px 6px;
+            background-color: black;
+            color: white;
+            border: 2px solid rgb(26, 24, 24);
+            border-radius: 9px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .container {
+            /* border: 2px solid whitesmoke; */
+            display: inline-block;
+            width: 33%;
+            position: absolute;
+            top: 179px;
+            left: -35px;
+            padding: 52px;
+            width: 40%;
+            border-radius: 28px;
+            font-size: 15px;
+            height: 400px;
+        }
+
+        .form-group input {
+            text-align: center;
+            width: 270px;
+            display: block;
+            border: 2px solid black;
+            padding: 6px;
+            margin: 14px auto;
+            font-size: 15px;
+            border-radius: 15px;
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 23%;
+            margin: 23px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="Images/logo2.png" alt="">
+            <div>Orange Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li class="home"><a href="#">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <button class="btn">Fees</button>
+            <button class="btn">Inquire Now</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Ahmedabad now!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Mobile number">
+                    <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Email Id">
+                    </div>
+                    <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
