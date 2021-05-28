@@ -1,0 +1,6 @@
+Today was Day-2 of our Python and Django Internship. First we were introduced to comments in Python. How can we
+make single line and double line comments, what are the various uses of comments etc.. Then we were taught
+how can we declare and assign values to variables. How can we assign same value to different variables and
+and how can we assign different values to different variables using a single line of code. Then we were
+introduced to different data types of Python such as String, Tuple, List, Dictionary and various operations
+that can be applied to them such as slicing and dicing.
