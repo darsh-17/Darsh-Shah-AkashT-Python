@@ -1,0 +1,5 @@
+On the Day-3 of our Python and Django Internship, we were introduced to conditional statements and loops in Python.
+Conditional statements inluded IF....ELSE statements, nested IF....ELSE statements,IF...ELIF statements.
+Then we were taught various types of loops such as for loop and while loop. Then we were introduced to range()
+function with one argument, two arguments and three arguments. Then we were introduced to break, continue and
+pass statements and their importance in loops.
